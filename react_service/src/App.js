@@ -34,11 +34,11 @@ function App() {
             <nav className="main-menu">
               <ul>
                 <li>
-                  <a href="/register" className={'sidenav-link'}><i className="fal fa-list-alt fa-2x"></i>
+                  <a href="/register" className={'sidenav-link'}><i className="fad fa-comments fa-2x"></i>
                     <span className="nav-text">Register</span></a>
                 </li>
                 <li className="has-subnav">
-                  <a href="/calendar" className={'sidenav-link'}><i className="fal fa-calendar-alt fa-2x"></i>
+                  <a href="/calendar" className={'sidenav-link'}><i className="fad fa-calendar-alt fa-2x"></i>
                     <span className="nav-text">Event Calendar</span></a>
                 </li>
                 {/*<li className="has-subnav">*/}

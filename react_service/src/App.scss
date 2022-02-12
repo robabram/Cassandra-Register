@@ -1,0 +1,99 @@
+// https://github.com/carbon-design-system/carbon/tree/main/packages/styles
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme';
+@use '@carbon/react/scss/zone';
+
+@use '@carbon/styles/scss/grid';
+@use '@carbon/styles/scss/colors';
+@use '@carbon/styles/scss/spacing';
+// Import all of the component styles.
+@use '@carbon/styles/scss/components';
+
+
+#app-window {
+    padding: 0;
+    /* allow for side nav bar width */
+    margin: 0 0 0 61px;
+    width: -webkit-calc(100% - 61px);
+    width:    -moz-calc(100% - 61px);
+    width:         calc(100% - 61px);
+}
+
+.top-level-page {
+    width: 100%;
+}
+
+.cds--btn .svg-inline--fa {
+    position: relative;
+    left: spacing.$spacing-07;
+}
+
+.top-pad {
+    margin: 0;
+    padding: spacing.$spacing-06 0 0;
+}
+
+.display-box {
+    /* display: inline-block; */
+    /* padding: spacing.$spacing-02; */
+    width: 100%;
+    /* background-color: #272a32; */
+    /* border: #888888 solid 1px; */
+    /* padding: spacing.$spacing-06 spacing.$spacing-07; */
+    //border-radius: 6px;
+    //-moz-border-radius: 6px;
+    /* box-shadow: 2px 2px 10px #222; */
+}
+
+.register-item {
+    /* display: inline-block; */
+    padding-top: spacing.$spacing-04;
+    padding-bottom: spacing.$spacing-04;
+    width: 100%;
+    /* background-color: #272a32; */
+    border-bottom: #AAA solid 1px;
+}
+
+.register-item-title {
+    padding-bottom: spacing.$spacing-02;
+    font-weight: bold;
+}
+
+.register-item-events {
+    margin-top: spacing.$spacing-02;
+    padding-top: spacing.$spacing-02;
+    border-top: #CCC solid 1px;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.register-item-ts {
+    font-size: small;
+    margin-bottom: spacing.$spacing-02;;
+}
+
+.display-box-heading {
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin-bottom: spacing.$spacing-06;
+    display: inline;
+    width: 90%;
+}
+
+
+.display-box-heading span {
+    display: inline-block;
+    width: 100%;
+    border-bottom: colors.$gray-50 solid 1px;
+    padding-bottom: spacing.$spacing-02;
+}
+
+.display-box-heading-icon {
+    position: relative;
+    top: -4px;
+    margin-right: spacing.$spacing-04;
+}
+
+.display-box-row {
+    margin-top: spacing.$spacing-05;
+}
